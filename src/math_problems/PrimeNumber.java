@@ -12,6 +12,22 @@ public class PrimeNumber {
 
     public static void main(String[] args) {
 
+        int i = 0;
+        int j = 0;
+        for (i = 1; i <= 1000.000; i++){
+            boolean primeNumber = true;
+            for (j = 2; j < i; j++){
+                if(i%j==0)
+                {
+                    primeNumber = false;
+                    break;
+                }
+            }
+            if(primeNumber){
+                System.out.println(i);
+            }
+        }
+
     }
 
 }
