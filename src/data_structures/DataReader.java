@@ -1,6 +1,6 @@
 package data_structures;
 
-public class DataReader {
+//public class DataReader {
 
     /**
      * Create an API to read the .txt file and print it to the console.
@@ -17,9 +17,26 @@ public class DataReader {
      * Use For-Each & While-loop with Iterator to retrieve/print data.
      **/
 
-    public static void main(String[] args) {
-        String textFilePath = System.getProperty("user.dir") + "/src/data_structures/data/self-driving-car.txt";
+   // public static void main(String[] args) throws IOException {
+     //   String textFilePath = System.getProperty("user.dir") + "/src/data_structures/data/self-driving-car.txt";
+        //try {
+            //FileWriter fw = new FileWriter("samar.txt");
+            //Scanner in = new Scanner(System.in);
+            //String testwords = in.nextLine();
+      //      fw.write(testwords);
+        //} catch (IOException e) {
+          //  e.printStackTrace();
+        //}
+       // BufferedReader r = new BufferedReader(new FileReader("samar.txt"));
+        //String s = "", line = null;
 
-    }
+//            Class.forName("com.mysql.jdbc.Driver");
+  //          Connection con = DriverManager.getConnection();
+    //        return con;
+      //  }
+        //catch (SQLException e){
+          //  System.out.println();
+        //}
+      //  }
+    //}
 
-}

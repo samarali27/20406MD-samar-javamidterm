@@ -248,7 +248,7 @@ public class SharedStepsDatabase {
      * Closes all static resources
      */
 
-    private static void closeResources() {
+    public static void closeResources() {
         try {
             if (resultSet != null) {
                 resultSet.close();

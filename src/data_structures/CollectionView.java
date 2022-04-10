@@ -18,6 +18,22 @@ public class CollectionView {
         map.put(5, "San Jose");
         map.put(6, "Seattle");
 
+        //set keys = hm.keySet();
+        //Iterator i = keys.iterator();
+        //while (i.hasNext()) {
+           // System.out.println(i.next());
+
+
+       // collection getValues = hm.values();
+        //i = getValues.iterator();
+        //while (i.hasNext()){
+          //  System.out.println(i.next());
+
+
+
+        System.out.println("Initial Mapping are : " + map);
+        System.out.println("collection view is :" + map.values());
+
     }
 
 }
